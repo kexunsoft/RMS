@@ -1,0 +1,10 @@
+E:\S2上课内容\餐饮管理系统\MDL\bin\Debug\MDL.dll
+E:\S2上课内容\餐饮管理系统\MDL\bin\Debug\MDL.pdb
+E:\S2上课内容\餐饮管理系统\MDL\obj\Debug\MDL.dll
+E:\S2上课内容\餐饮管理系统\MDL\obj\Debug\MDL.pdb
+E:\S2上课内容\餐饮管理系统\MDL\obj\Debug\MDL.csprojResolveAssemblyReference.cache
+C:\Users\18137\Desktop\餐饮管理系统\MDL\bin\Debug\MDL.dll
+C:\Users\18137\Desktop\餐饮管理系统\MDL\bin\Debug\MDL.pdb
+C:\Users\18137\Desktop\餐饮管理系统\MDL\obj\Debug\MDL.csprojResolveAssemblyReference.cache
+C:\Users\18137\Desktop\餐饮管理系统\MDL\obj\Debug\MDL.dll
+C:\Users\18137\Desktop\餐饮管理系统\MDL\obj\Debug\MDL.pdb

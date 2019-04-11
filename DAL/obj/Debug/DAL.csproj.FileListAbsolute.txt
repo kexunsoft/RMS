@@ -1,0 +1,14 @@
+E:\S2上课内容\餐饮管理系统\DAL\bin\Debug\DAL.dll
+E:\S2上课内容\餐饮管理系统\DAL\bin\Debug\DAL.pdb
+E:\S2上课内容\餐饮管理系统\DAL\bin\Debug\MDL.dll
+E:\S2上课内容\餐饮管理系统\DAL\bin\Debug\MDL.pdb
+E:\S2上课内容\餐饮管理系统\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+E:\S2上课内容\餐饮管理系统\DAL\obj\Debug\DAL.dll
+E:\S2上课内容\餐饮管理系统\DAL\obj\Debug\DAL.pdb
+C:\Users\18137\Desktop\餐饮管理系统\DAL\bin\Debug\DAL.dll
+C:\Users\18137\Desktop\餐饮管理系统\DAL\bin\Debug\DAL.pdb
+C:\Users\18137\Desktop\餐饮管理系统\DAL\bin\Debug\MDL.dll
+C:\Users\18137\Desktop\餐饮管理系统\DAL\bin\Debug\MDL.pdb
+C:\Users\18137\Desktop\餐饮管理系统\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+C:\Users\18137\Desktop\餐饮管理系统\DAL\obj\Debug\DAL.dll
+C:\Users\18137\Desktop\餐饮管理系统\DAL\obj\Debug\DAL.pdb

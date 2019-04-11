@@ -1,0 +1,8 @@
+菜名	数量	价格
+DataGridViewTextBoxCell { ColumnIndex=0, RowIndex=0 }	DataGridViewTextBoxCell { ColumnIndex=1, RowIndex=0 }	DataGridViewTextBoxCell { ColumnIndex=2, RowIndex=0 }
+DataGridViewTextBoxCell { ColumnIndex=0, RowIndex=1 }	DataGridViewTextBoxCell { ColumnIndex=1, RowIndex=1 }	DataGridViewTextBoxCell { ColumnIndex=2, RowIndex=1 }
+DataGridViewTextBoxCell { ColumnIndex=0, RowIndex=2 }	DataGridViewTextBoxCell { ColumnIndex=1, RowIndex=2 }	DataGridViewTextBoxCell { ColumnIndex=2, RowIndex=2 }
+DataGridViewTextBoxCell { ColumnIndex=0, RowIndex=3 }	DataGridViewTextBoxCell { ColumnIndex=1, RowIndex=3 }	DataGridViewTextBoxCell { ColumnIndex=2, RowIndex=3 }
+DataGridViewTextBoxCell { ColumnIndex=0, RowIndex=4 }	DataGridViewTextBoxCell { ColumnIndex=1, RowIndex=4 }	DataGridViewTextBoxCell { ColumnIndex=2, RowIndex=4 }
+实收金额:600
+会员金额:0

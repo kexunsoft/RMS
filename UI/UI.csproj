@@ -1,0 +1,389 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5BDFBE68-1B7C-4E99-914C-2E18D119307C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>UI</RootNamespace>
+    <AssemblyName>UI</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>ico [64x64].ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Speech" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddYD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddYD.Designer.cs">
+      <DependentUpon>AddYD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="admins.cs" />
+    <Compile Include="CBState.cs" />
+    <Compile Include="EditProduct.cs" />
+    <Compile Include="FrmAddAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAddAdmin.Designer.cs">
+      <DependentUpon>FrmAddAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAddConsumer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAddConsumer.Designer.cs">
+      <DependentUpon>FrmAddConsumer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAdmin.Designer.cs">
+      <DependentUpon>FrmAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmBatchAddTable.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmBatchAddTable.Designer.cs">
+      <DependentUpon>FrmBatchAddTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmEditAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmEditAdmin.Designer.cs">
+      <DependentUpon>FrmEditAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmEditProduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmEditProduct.Designer.cs">
+      <DependentUpon>FrmEditProduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmEditPT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmEditPT.Designer.cs">
+      <DependentUpon>FrmEditPT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmEditPwd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmEditPwd.Designer.cs">
+      <DependentUpon>FrmEditPwd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmEditRoom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmEditRoom.Designer.cs">
+      <DependentUpon>FrmEditRoom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmEditTable.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmEditTable.Designer.cs">
+      <DependentUpon>FrmEditTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmEndBill.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmEndBill.Designer.cs">
+      <DependentUpon>FrmEndBill.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLogin.Designer.cs">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMain.Designer.cs">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSelectBill.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSelectBill.Designer.cs">
+      <DependentUpon>FrmSelectBill.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmStartBill.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmStartBill.Designer.cs">
+      <DependentUpon>FrmStartBill.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmVip.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmVip.Designer.cs">
+      <DependentUpon>FrmVip.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Product.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RoundFormPainter.cs" />
+    <Compile Include="UpTable.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpTable.Designer.cs">
+      <DependentUpon>UpTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UptableHelp.cs" />
+    <Compile Include="vipAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="vipAdd.Designer.cs">
+      <DependentUpon>vipAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Warning.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Warning.Designer.cs">
+      <DependentUpon>Warning.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ZD.cs" />
+    <Compile Include="结账状态.cs" />
+    <Compile Include="设置.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="设置.Designer.cs">
+      <DependentUpon>设置.cs</DependentUpon>
+    </Compile>
+    <Compile Include="选定套餐.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="选定套餐.Designer.cs">
+      <DependentUpon>选定套餐.cs</DependentUpon>
+    </Compile>
+    <Compile Include="预定.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="预定.Designer.cs">
+      <DependentUpon>预定.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AddYD.resx">
+      <DependentUpon>AddYD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAddAdmin.resx">
+      <DependentUpon>FrmAddAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAddConsumer.resx">
+      <DependentUpon>FrmAddConsumer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAdmin.resx">
+      <DependentUpon>FrmAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmBatchAddTable.resx">
+      <DependentUpon>FrmBatchAddTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmEditAdmin.resx">
+      <DependentUpon>FrmEditAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmEditProduct.resx">
+      <DependentUpon>FrmEditProduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmEditPT.resx">
+      <DependentUpon>FrmEditPT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmEditPwd.resx">
+      <DependentUpon>FrmEditPwd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmEditRoom.resx">
+      <DependentUpon>FrmEditRoom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmEditTable.resx">
+      <DependentUpon>FrmEditTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmEndBill.resx">
+      <DependentUpon>FrmEndBill.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLogin.resx">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMain.resx">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSelectBill.resx">
+      <DependentUpon>FrmSelectBill.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmStartBill.resx">
+      <DependentUpon>FrmStartBill.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmVip.resx">
+      <DependentUpon>FrmVip.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="UpTable.resx">
+      <DependentUpon>UpTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="vipAdd.resx">
+      <DependentUpon>vipAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Warning.resx">
+      <DependentUpon>Warning.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="设置.resx">
+      <DependentUpon>设置.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="选定套餐.resx">
+      <DependentUpon>选定套餐.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="预定.resx">
+      <DependentUpon>预定.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1409226987502783.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\麻辣牛肉.jpg" />
+    <None Include="Resources\ss.png" />
+    <None Include="Resources\xg.png" />
+    <None Include="Resources\会员1.png" />
+    <None Include="Resources\添加按钮.png" />
+    <None Include="Resources\zt2.png" />
+    <None Include="Resources\zt1.png" />
+    <None Include="Resources\zt.png" />
+    <None Include="Resources\计算器.png" />
+    <None Include="Resources\会员.png" />
+    <None Include="Resources\设置.png" />
+    <None Include="Resources\设置2.png" />
+    <None Include="Resources\估清.png" />
+    <None Include="Resources\账单.png" />
+    <None Include="bin\Debug\imges\kteatime.png" />
+    <None Include="bin\Debug\imges\db_update.png" />
+    <None Include="bin\Debug\imges\Sign - Dollar.png" />
+    <None Include="bin\Debug\imges\Login Manager.png" />
+    <None Include="bin\Debug\imges\kghostview.png" />
+    <None Include="bin\Debug\imges\kfm_home.png" />
+    <None Include="bin\Debug\imges\folder_tar.png" />
+    <None Include="bin\Debug\imges\run.png" />
+    <None Include="bin\Debug\imges\button_cancel.png" />
+    <None Include="bin\Debug\imges\date.png" />
+    <None Include="bin\Debug\imges\calc.png" />
+    <None Include="bin\Debug\imges\trashcan_empty.png" />
+    <Content Include="ico [64x64].ico" />
+    <None Include="Resources\baobiao.png" />
+    <None Include="Resources\close.png" />
+    <None Include="Resources\add.jpg" />
+    <None Include="Resources\Erro.png" />
+    <None Include="Resources\58PIC9U58PICwyA_1024.jpg" />
+    <None Include="Resources\de.png" />
+    <None Include="Resources\BQQ.png" />
+    <None Include="Resources\Erro1.png" />
+    <None Include="Resources\01136857d2415e0000018c1b8aff7a.png" />
+    <None Include="Resources\34P58PICEuZ_1024.png" />
+    <Content Include="Resources\ico [64x64].ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 和 x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BLL\BLL.csproj">
+      <Project>{1C8531E6-FA95-4733-9712-EA74A08DDB8F}</Project>
+      <Name>BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MDL\MDL.csproj">
+      <Project>{F3F7D0D3-8F01-4036-9090-A65BD62F0E60}</Project>
+      <Name>MDL</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

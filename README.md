@@ -1,7 +1,7 @@
-此项目未经过市场检验,无法达到商业要求,仅供个人学习钻研如需定制系统,可与我联系
+此项目仅供个人学习研究使用,如需定制系统可通过下面的联系方式与我联系
 
 
-sql文件获取地址: http://demo.kexunsoftware.com/sql.html
+sql文件获取地址: http://demo.kexunsoftware.com/page/sql.html
 
 ######科讯软件工作室########
 
@@ -10,4 +10,5 @@ sql文件获取地址: http://demo.kexunsoftware.com/sql.html
 ##软件定制开发 ## 微信小程序 公众号开发
 H5开发 web网站开发 对接第三方接口 数据爬虫服务
 
-微信:LIDONG1813723783 QQ:1813723783
+联系方式:
+微信:kexunsoftware QQ:3275208135

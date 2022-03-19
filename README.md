@@ -1,3 +1,5 @@
+数据库下载地址:: http://www.kexunsoftware.com/#/productDetail/5d26d7f8e7164beb962475de45bcdad3
+
 # 科讯餐饮管理系统介绍文档
 
 **背景:**
